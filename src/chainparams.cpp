@@ -77,7 +77,7 @@ public:
 
 
         hashGenesisBlock = genesis.GetHash();
-        printf("Mainnet block.GetHash = %s\n", hashGenesisBlock);
+        printf("Mainnet block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         //  if(genesis.GetHash() != uint256("0x"))
         // {
         // printf("MSearching for genesis block...\n");
