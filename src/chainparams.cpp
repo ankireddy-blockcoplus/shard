@@ -65,19 +65,19 @@ public:
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         vout[0].nValue = 0;
         vout[0].scriptPubKey = CScript() << ParseHex("04c629dd47950d15c4f63db4e67247335e09dec8b4ca4c157a23858e2503709e5fe3ba75d5b5263b046ae4b20af135a4dc79e66123ad9a15e65a98798bfee60724") << OP_CHECKSIG;
-        CTransaction txNew(1, 1520529257, vin, vout, 0);
+        CTransaction txNew(1, 1549448819, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1520529257;
+        genesis.nTime    = 1549448819;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 1132321;
 
 
 
         hashGenesisBlock = genesis.GetHash();
-
+        cout<<hashGenesisBlock;
         assert(hashGenesisBlock == uint256("0x0000040773cd063c916dc9a27c58e3bf59993b0fd3a11d7823b429808f66dde1"));
         assert(genesis.hashMerkleRoot == uint256("0x26c2cfb339fb1879468aaf990d280fda69203df1186342db4f93b8183e206427"));
 
@@ -132,7 +132,7 @@ public:
 
 
         hashGenesisBlock = genesis.GetHash();
-
+        cout<<hashGenesisBlock;
         assert(hashGenesisBlock == uint256("0x0000c13a52f2b21b7559227d797c4d1e21c3f55fbd1b0dc565e30b87fad06f23"));
 
         vFixedSeeds.clear();
@@ -173,7 +173,7 @@ public:
 
 
 
-
+        cout<<hashGenesisBlock;
 
 
         assert(hashGenesisBlock == uint256("0x3cb5bd88bf8eeb1c58fd9d40edf39e3f85043987af257622c4b6069349a77a08"));
