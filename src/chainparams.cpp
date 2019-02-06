@@ -81,7 +81,7 @@ public:
         {
         printf("MSearching for genesis block...\n");
         
-        while(uint256(genesis.GetHash()) !== hashGenesisBlock)
+        while(uint256(genesis.GetHash()) != hashGenesisBlock)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
