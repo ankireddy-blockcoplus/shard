@@ -2661,8 +2661,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 48200 or testnet: 58200)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 48200 tai testiverkko: 58200)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 77889 or testnet: 58200)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 77889 tai testiverkko: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>

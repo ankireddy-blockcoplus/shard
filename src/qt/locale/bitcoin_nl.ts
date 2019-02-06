@@ -2649,8 +2649,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MyCoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 48200 or testnet: 58200)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 48200 of testnet: 58200)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 77889 or testnet: 58200)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 77889 of testnet: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>

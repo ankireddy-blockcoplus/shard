@@ -2663,8 +2663,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;MyCoin upozornenie&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 48200 or testnet: 58200)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 48200 alebo testovacia sieť: 58200)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 77889 or testnet: 58200)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 77889 alebo testovacia sieť: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>

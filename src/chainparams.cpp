@@ -53,7 +53,7 @@ public:
         pchMessageStart[2] = 0xf7;
         pchMessageStart[3] = 0x51;
         vAlertPubKey = ParseHex("04cdd273904fee60d22ac8b52ebbb77e82b9acb37a134c83531987f3f0ee4291d0047ae55edeb2609d57e0200aba8297bf343384db4ed2cbaff1668921109ed8e0");
-        nDefaultPort = 48200;
+        nDefaultPort = 77889;
         nRPCPort = 48210;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
@@ -104,8 +104,8 @@ public:
         assert(hashGenesisBlock == uint256("0xd3add74d1b7c192e27936aaa9ff8199aa2d841c3f63d5032adc43333ffbdf5ca"));
         assert(genesis.hashMerkleRoot == uint256("0x5744f28de9538fe9e0579cdfaf6769d14810865e2a50c506fa69c3e82bfaa5e2"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63); // S
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 125); // s
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 52); // S
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 111); // s
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 45); // K
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
