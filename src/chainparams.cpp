@@ -80,9 +80,8 @@ public:
          if(genesis.GetHash() != uint256("0x"))
         {
         printf("MSearching for genesis block...\n");
-        uint256 hashTarget;
-        hashTarget.SetCompact(genesis.nBits);
-        while(uint256(genesis.GetHash()) > uint256(hashTarget))
+        
+        while(uint256(genesis.GetHash()) !== hashGenesisBlock)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
