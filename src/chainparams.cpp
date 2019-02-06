@@ -179,7 +179,7 @@ public:
         printf("testnet block.hashMerkleRoot: %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("testnet block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         }
-        assert(hashGenesisBlock == uint256("b04b468606fbe49d8feabdf1be3fedf1fa22f07af3ba587dfaf7188bda0fc292"));
+        assert(hashGenesisBlock == uint256("0xb04b468606fbe49d8feabdf1be3fedf1fa22f07af3ba587dfaf7188bda0fc292"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -243,7 +243,7 @@ public:
         printf("regtest block.hashMerkleRoot: %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("regtest block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         }
-        assert(hashGenesisBlock == uint256("0x3cb5bd88bf8eeb1c58fd9d40edf39e3f85043987af257622c4b6069349a77a08"));
+        assert(hashGenesisBlock == uint256("0xbd7128950bd92f54401f61e7c1699d14b77b8b73430927716d76a336a4634767"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
