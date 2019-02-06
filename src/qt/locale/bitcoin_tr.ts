@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Shard</source>
-        <translation>Shard Hakkında</translation>
+        <source>About MyCoin</source>
+        <translation>MyCoin Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Shard&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Shard&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;MyCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;MyCoin&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The Shard developers</source>
+Copyright © 2018 The MyCoin developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2018 Shard geliştiricileri</translation>
+Telif Hakkı © 2018 MyCoin geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Shard addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için Shard adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your MyCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için MyCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Shard address</source>
-        <translation>Bir Shard adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a MyCoin address</source>
+        <translation>Bir MyCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Shard address</source>
-        <translation>Mesajın, belirli bir Shard adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified MyCoin address</source>
+        <translation>Mesajın, belirli bir MyCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>Shard will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Shard, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>MyCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>MyCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Shard</source>
-        <translation>Shard hakkındaki bilgiyi göster</translation>
+        <source>Show information about MyCoin</source>
+        <translation>MyCoin hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Shard address</source>
-        <translation>Bir Shard adresine coin gönder</translation>
+        <source>Send coins to a MyCoin address</source>
+        <translation>Bir MyCoin adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Shard</source>
-        <translation>Shard yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for MyCoin</source>
+        <translation>MyCoin yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Shard</source>
-        <translation>Shard</translation>
+        <source>MyCoin</source>
+        <translation>MyCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Shard</source>
-        <translation>Shard &amp;Hakkında</translation>
+        <source>&amp;About MyCoin</source>
+        <translation>MyCoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Shard client</source>
-        <translation>Shard istemcisi</translation>
+        <source>MyCoin client</source>
+        <translation>MyCoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Shard network</source>
-        <translation><numerusform>Shard ağına %n etkin bağlantı</numerusform><numerusform>Shard ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to MyCoin network</source>
+        <translation><numerusform>MyCoin ağına %n etkin bağlantı</numerusform><numerusform>MyCoin ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -600,8 +600,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Shard address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir Shard adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid MyCoin address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir MyCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Shard can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. Shard artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. MyCoin can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. MyCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -999,8 +999,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Shard address.</source>
-        <translation>Girilen %1 adresi, geçerli bir Shard adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MyCoin address.</source>
+        <translation>Girilen %1 adresi, geçerli bir MyCoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1018,8 +1018,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Shard-Qt</source>
-        <translation>Shard-Qt</translation>
+        <source>MyCoin-Qt</source>
+        <translation>MyCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1091,13 +1091,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Shard after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra Shard&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start MyCoin after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra MyCoin&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Shard on system login</source>
-        <translation>Sisteme girişte Shard&apos;i &amp;başlat</translation>
+        <source>&amp;Start MyCoin on system login</source>
+        <translation>Sisteme girişte MyCoin&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1106,8 +1106,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Shard client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide Shard istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the MyCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide MyCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1136,7 +1136,7 @@ Adres: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Shard network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the MyCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1181,8 +1181,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Shard.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, Shard yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting MyCoin.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, MyCoin yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1238,8 +1238,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Shard.</source>
-        <translation>Bu ayar, Shard&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting MyCoin.</source>
+        <translation>Bu ayar, MyCoin&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1257,8 +1257,8 @@ Adres: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shard network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak Shard ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MyCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak MyCoin ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1331,8 +1331,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start shard: click-to-pay handler</source>
-        <translation>shard: tıkla-ve-öde işleyicisi başlatılamıyor</translation>
+        <source>Cannot start MyCoin: click-to-pay handler</source>
+        <translation>MyCoin: tıkla-ve-öde işleyicisi başlatılamıyor</translation>
     </message>
 </context>
 <context>
@@ -1501,8 +1501,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Shard-Qt help message to get a list with possible Shard command-line options.</source>
-        <translation>Muhtemel Shard komut satırı seçeneklerinin bir listesini getirmek için Shard-Qt yardım mesajını göster</translation>
+        <source>Show the MyCoin-Qt help message to get a list with possible MyCoin command-line options.</source>
+        <translation>Muhtemel MyCoin komut satırı seçeneklerinin bir listesini getirmek için MyCoin-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1521,13 +1521,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Shard - Debug window</source>
-        <translation>Shard - Hata ayıklama penceresi</translation>
+        <source>MyCoin - Debug window</source>
+        <translation>MyCoin - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Shard Core</source>
-        <translation>Shard Core</translation>
+        <source>MyCoin Core</source>
+        <translation>MyCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1536,8 +1536,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Shard debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Shard hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the MyCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>MyCoin hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1546,8 +1546,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the Shard RPC console.</source>
-        <translation>Shard RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the MyCoin RPC console.</source>
+        <translation>MyCoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1717,8 +1717,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Bir Shard adresi gir (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Bir MyCoin adresi gir (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1812,8 +1812,8 @@ Adres: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid Shard address</source>
-        <translation>UYARI: Geçersiz Shard adresi</translation>
+        <source>WARNING: Invalid MyCoin address</source>
+        <translation>UYARI: Geçersiz MyCoin adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1886,8 +1886,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Bir Shard adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Bir MyCoin adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1947,8 +1947,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Shard address</source>
-        <translation>Bu Shard adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this MyCoin address</source>
+        <translation>Bu MyCoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1979,8 +1979,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Shard address</source>
-        <translation>Mesajın, belirtilen Shard adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified MyCoin address</source>
+        <translation>Mesajın, belirtilen MyCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1990,8 +1990,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Bir Shard adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Bir MyCoin adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2000,8 +2000,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Shard signature</source>
-        <translation>Shard imzası gir</translation>
+        <source>Enter MyCoin signature</source>
+        <translation>MyCoin imzası gir</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2579,8 +2579,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>Shard version</source>
-        <translation>Shard versiyonu</translation>
+        <source>MyCoin version</source>
+        <translation>MyCoin versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2589,8 +2589,8 @@ Adres: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or shardd</source>
-        <translation>-sunucu veya shardd&apos;ye komut gönder</translation>
+        <source>Send command to -server or MyCoind</source>
+        <translation>-sunucu veya MyCoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2609,13 +2609,13 @@ Adres: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: shard.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: shard.conf)</translation>
+        <source>Specify configuration file (default: MyCoin.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: MyCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: shardd.pid)</source>
-        <translation>pid dosyasını belirt (varsayılan: shard.pid)</translation>
+        <source>Specify pid file (default: MyCoind.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: MyCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2632,24 +2632,24 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=shardrpc
+rpcuser=MyCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MyCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, konfigürasyon dosyasında bir rpcpassword belirlemelisiniz:
 %s
 Aşağıdaki rastgele şifreyi kullanmanız tavsiye edilir:
-rpcuser=shardrpc
+rpcuser=MyCoinrpc
 rpcpassword=%s
 (bu şifreyi hatırlamanız gerekmemektedir)
 Kullanıcı adı ve şifre aynı OLMAMALIDIR.
 Dosya mevcut değilse, sadece sahibi tarafından okunabilir yetkiyle yaratın.
 Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanız önerilir;
-örneğin: alertnotify=echo %%s | mail -s &quot;Shard Alarmı&quot; admin@foo.com
+örneğin: alertnotify=echo %%s | mail -s &quot;MyCoin Alarmı&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2749,8 +2749,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shard will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, Shard düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MyCoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, MyCoin düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3044,8 +3044,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Shard is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. Shard kapatılıyor.</translation>
+        <source>Initialization sanity check failed. MyCoin is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. MyCoin kapatılıyor.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3099,13 +3099,13 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Shard</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir Shard versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MyCoin</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir MyCoin versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Shard to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için Shard&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart MyCoin to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için MyCoin&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3164,8 +3164,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. Shard is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. Shard muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. MyCoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. MyCoin muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3194,8 +3194,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Shard is probably already running.</source>
-        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. Shard muhtemelen halen çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. MyCoin is probably already running.</source>
+        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. MyCoin muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+4"/>

@@ -50,12 +50,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Shard version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("MyCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  shardd [options]                     " + "\n" +
-                  "  shardd [options] <command> [params]  " + _("Send command to -server or shardd") + "\n" +
-                  "  shardd [options] help                " + _("List commands") + "\n" +
-                  "  shardd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  MyCoind [options]                     " + "\n" +
+                  "  MyCoind [options] <command> [params]  " + _("Send command to -server or MyCoind") + "\n" +
+                  "  MyCoind [options] help                " + _("List commands") + "\n" +
+                  "  MyCoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "shard:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "MyCoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

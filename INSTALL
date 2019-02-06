@@ -1,9 +1,9 @@
-Building Shard
+Building MyCoin
 
-See doc/readme-qt.rst for instructions on building Shard QT,
+See doc/readme-qt.rst for instructions on building MyCoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Shard.
+implementation of MyCoin.
 
-See doc/build-*.txt for instructions on building shardd,
+See doc/build-*.txt for instructions on building MyCoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Shard.
+implementation of MyCoin.

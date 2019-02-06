@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "shard";
+    const char* pszModule = "MyCoin";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Shard
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Shard
-    // Mac: ~/Library/Application Support/Shard
-    // Unix: ~/.shard
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\MyCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\MyCoin
+    // Mac: ~/Library/Application Support/MyCoin
+    // Unix: ~/.MyCoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Shard";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "MyCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Shard";
+    return pathRet / "MyCoin";
 #else
     // Unix
-    return pathRet / ".shard";
+    return pathRet / ".MyCoin";
 #endif
 #endif
 }
@@ -1022,7 +1022,7 @@ string randomStrGen(int length) {
 }
 
 // DS: auto create conf file
-void createConf()       //Automatic Shard.conf generation
+void createConf()       //Automatic MyCoin.conf generation
 {
     srand(time(NULL));
 
@@ -1051,7 +1051,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "shard.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "MyCoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1061,7 +1061,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     // DS: auto create conf file
     boost::filesystem::ifstream streamConfig(GetConfigFile());
-    if (!streamConfig.good()) //Shard.conf doesn't exist
+    if (!streamConfig.good()) //MyCoin.conf doesn't exist
     {
         createConf();
         new(&streamConfig) boost::filesystem::ifstream(GetConfigFile());
@@ -1090,7 +1090,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "shardd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "MyCoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

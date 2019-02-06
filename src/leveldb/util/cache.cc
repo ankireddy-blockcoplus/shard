@@ -31,7 +31,7 @@ struct LRUHandle {
   size_t charge;      // TODO(opt): Only allow uint32_t?
   size_t key_length;
   uint32_t refs;
-  uint32_t hash;      // Hash of key(); used for fast sharding and comparisons
+  uint32_t hash;      // Hash of key(); used for fast MyCoining and comparisons
   char key_data[1];   // Beginning of key
 
   Slice key() const {
@@ -131,7 +131,7 @@ class HandleTable {
   }
 };
 
-// A single shard of sharded cache.
+// A single MyCoin of MyCoined cache.
 class LRUCache {
  public:
   LRUCache();
@@ -264,12 +264,12 @@ void LRUCache::Erase(const Slice& key, uint32_t hash) {
   }
 }
 
-static const int kNumShardBits = 4;
-static const int kNumShards = 1 << kNumShardBits;
+static const int kNumMyCoinBits = 4;
+static const int kNumMyCoins = 1 << kNumMyCoinBits;
 
-class ShardedLRUCache : public Cache {
+class MyCoinedLRUCache : public Cache {
  private:
-  LRUCache shard_[kNumShards];
+  LRUCache MyCoin_[kNumMyCoins];
   port::Mutex id_mutex_;
   uint64_t last_id_;
 
@@ -277,35 +277,35 @@ class ShardedLRUCache : public Cache {
     return Hash(s.data(), s.size(), 0);
   }
 
-  static uint32_t Shard(uint32_t hash) {
-    return hash >> (32 - kNumShardBits);
+  static uint32_t MyCoin(uint32_t hash) {
+    return hash >> (32 - kNumMyCoinBits);
   }
 
  public:
-  explicit ShardedLRUCache(size_t capacity)
+  explicit MyCoinedLRUCache(size_t capacity)
       : last_id_(0) {
-    const size_t per_shard = (capacity + (kNumShards - 1)) / kNumShards;
-    for (int s = 0; s < kNumShards; s++) {
-      shard_[s].SetCapacity(per_shard);
+    const size_t per_MyCoin = (capacity + (kNumMyCoins - 1)) / kNumMyCoins;
+    for (int s = 0; s < kNumMyCoins; s++) {
+      MyCoin_[s].SetCapacity(per_MyCoin);
     }
   }
-  virtual ~ShardedLRUCache() { }
+  virtual ~MyCoinedLRUCache() { }
   virtual Handle* Insert(const Slice& key, void* value, size_t charge,
                          void (*deleter)(const Slice& key, void* value)) {
     const uint32_t hash = HashSlice(key);
-    return shard_[Shard(hash)].Insert(key, hash, value, charge, deleter);
+    return MyCoin_[MyCoin(hash)].Insert(key, hash, value, charge, deleter);
   }
   virtual Handle* Lookup(const Slice& key) {
     const uint32_t hash = HashSlice(key);
-    return shard_[Shard(hash)].Lookup(key, hash);
+    return MyCoin_[MyCoin(hash)].Lookup(key, hash);
   }
   virtual void Release(Handle* handle) {
     LRUHandle* h = reinterpret_cast<LRUHandle*>(handle);
-    shard_[Shard(h->hash)].Release(handle);
+    MyCoin_[MyCoin(h->hash)].Release(handle);
   }
   virtual void Erase(const Slice& key) {
     const uint32_t hash = HashSlice(key);
-    shard_[Shard(hash)].Erase(key, hash);
+    MyCoin_[MyCoin(hash)].Erase(key, hash);
   }
   virtual void* Value(Handle* handle) {
     return reinterpret_cast<LRUHandle*>(handle)->value;
@@ -319,7 +319,7 @@ class ShardedLRUCache : public Cache {
 }  // end anonymous namespace
 
 Cache* NewLRUCache(size_t capacity) {
-  return new ShardedLRUCache(capacity);
+  return new MyCoinedLRUCache(capacity);
 }
 
 }  // namespace leveldb

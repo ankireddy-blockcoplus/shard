@@ -23,7 +23,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Shard cannot be compiled without assertions."
+# error "MyCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -78,7 +78,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Shard Signed Message:\n";
+const string strMessageMagic = "MyCoin Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -1597,16 +1597,16 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 
                     BOOST_FOREACH(const CTxOut& output, vtx[1].vout) {  
 
-                       CTxDestination addrshard2;
-                       ExtractDestination(output.scriptPubKey, addrshard2);
-                       std::string GetTxAdressFromTransaction = CBitcoinAddress (addrshard2).ToString().c_str();
+                       CTxDestination addrMyCoin2;
+                       ExtractDestination(output.scriptPubKey, addrMyCoin2);
+                       std::string GetTxAdressFromTransaction = CBitcoinAddress (addrMyCoin2).ToString().c_str();
 
                         //If you remove the address or change it it will cause problems staking and syncing and you may be black listed
                         if (GetTxAdressFromTransaction == "Sk96aKe34Z1tvtf6i9tL2bVqk811F5m5cy") {
  
-                              uint64_t nOutputShard = output.nValue;
+                              uint64_t nOutputMyCoin = output.nValue;
 
-                            if (nOutputShard == (nCalculatedStakeReward / 5)) {
+                            if (nOutputMyCoin == (nCalculatedStakeReward / 5)) {
 
                                 found = true;
                                 break;
@@ -2378,7 +2378,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// Shard: attempt to generate suitable proof-of-stake
+// MyCoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
 	// if we are trying to sign
@@ -2731,7 +2731,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-	RenameThread("Shard-loadblk");
+	RenameThread("MyCoin-loadblk");
 
 	CImportingNow imp;
 

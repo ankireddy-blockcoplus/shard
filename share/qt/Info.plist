@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>Shard.icns</string>
+	<string>MyCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Shard-Qt</string>
+	<string>MyCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Shard-Qt</string>
+	<string>MyCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.shard.Shard-Qt</string>
+	<string>com.MyCoin.MyCoin-Qt</string>
   <key>CFBundleURLTypes</key>
   <array>
     <dict>
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.shard.ShardPayment</string>
+      <string>com.MyCoin.MyCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>Shard</string>
+        <string>MyCoin</string>
       </array>
     </dict>
   </array>

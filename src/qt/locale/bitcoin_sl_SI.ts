@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Shard</source>
-        <translation>O Shard</translation>
+        <source>About MyCoin</source>
+        <translation>O MyCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Shard&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Shard&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;MyCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;MyCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The Shard developers</source>
+Copyright © 2018 The MyCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Shard addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši Shard naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your MyCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši MyCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Shard address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Shard naslova</translation>
+        <source>Sign a message to prove you own a MyCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva MyCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Shard address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim Shard naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified MyCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim MyCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Shard will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Shard se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>MyCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>MyCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Shard</source>
-        <translation>Pokaži informacije o Shard</translation>
+        <source>Show information about MyCoin</source>
+        <translation>Pokaži informacije o MyCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Shard address</source>
-        <translation>Pošlji kovance na Shard naslov</translation>
+        <source>Send coins to a MyCoin address</source>
+        <translation>Pošlji kovance na MyCoin naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Shard</source>
-        <translation>Spremeni nastavitve za Shard</translation>
+        <source>Modify configuration options for MyCoin</source>
+        <translation>Spremeni nastavitve za MyCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Shard</source>
-        <translation>Shard</translation>
+        <source>MyCoin</source>
+        <translation>MyCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Shard</source>
-        <translation>&amp;O Shard</translation>
+        <source>&amp;About MyCoin</source>
+        <translation>&amp;O MyCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Shard client</source>
-        <translation>Shard program</translation>
+        <source>MyCoin client</source>
+        <translation>MyCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Shard network</source>
-        <translation><numerusform>%n aktivne povezave na Shard omrežje</numerusform><numerusform>%n aktivnih povezav na Shard omrežje</numerusform><numerusform>%n aktivnih povezav na Shard omrežje</numerusform><numerusform>%n aktivnih povezav na Shard omrežje</numerusform></translation>
+        <source>%n active connection(s) to MyCoin network</source>
+        <translation><numerusform>%n aktivne povezave na MyCoin omrežje</numerusform><numerusform>%n aktivnih povezav na MyCoin omrežje</numerusform><numerusform>%n aktivnih povezav na MyCoin omrežje</numerusform><numerusform>%n aktivnih povezav na MyCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -593,8 +593,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Shard address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega Shard naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid MyCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega MyCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -716,8 +716,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Shard can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program Shard se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. MyCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program MyCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -992,8 +992,8 @@ Naslov: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Shard address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven Shard naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MyCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven MyCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1011,8 +1011,8 @@ Naslov: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Shard-Qt</source>
-        <translation>Shard-Qt</translation>
+        <source>MyCoin-Qt</source>
+        <translation>MyCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1084,13 +1084,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Shard after logging in to the system.</source>
-        <translation>Avtomatično zaženi Shard ob zagonu sistema.</translation>
+        <source>Automatically start MyCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi MyCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Shard on system login</source>
-        <translation>&amp;Zaženi Shard ob prijavi v sistem</translation>
+        <source>&amp;Start MyCoin on system login</source>
+        <translation>&amp;Zaženi MyCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1099,8 +1099,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Shard client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za Shard program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the MyCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za MyCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1129,7 +1129,7 @@ Naslov: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Shard network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the MyCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1174,8 +1174,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Shard.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu Shard aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting MyCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu MyCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1231,8 +1231,8 @@ Naslov: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Shard.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu Shard aplikacije</translation>
+        <source>This setting will take effect after restarting MyCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu MyCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1250,8 +1250,8 @@ Naslov: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shard network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z Shard omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MyCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z MyCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1324,7 +1324,7 @@ Naslov: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start shard: click-to-pay handler</source>
+        <source>Cannot start MyCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1494,8 +1494,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Shard-Qt help message to get a list with possible Shard command-line options.</source>
-        <translation>Prikaži Shard-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice Shard aplikacije</translation>
+        <source>Show the MyCoin-Qt help message to get a list with possible MyCoin command-line options.</source>
+        <translation>Prikaži MyCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice MyCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1514,13 +1514,13 @@ Naslov: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Shard - Debug window</source>
-        <translation>Shard - okno za odpravljanje napak</translation>
+        <source>MyCoin - Debug window</source>
+        <translation>MyCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Shard Core</source>
-        <translation>Shard jedro</translation>
+        <source>MyCoin Core</source>
+        <translation>MyCoin jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1529,8 +1529,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Shard debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri Shard datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the MyCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri MyCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1539,8 +1539,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the Shard RPC console.</source>
-        <translation>Dobrodošli v Shard RPC konzoli.</translation>
+        <source>Welcome to the MyCoin RPC console.</source>
+        <translation>Dobrodošli v MyCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1710,8 +1710,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Vnesite Shard naslov (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Vnesite MyCoin naslov (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1805,8 +1805,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid Shard address</source>
-        <translation>OPOZORILO: Neveljaven Shard naslov</translation>
+        <source>WARNING: Invalid MyCoin address</source>
+        <translation>OPOZORILO: Neveljaven MyCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1879,8 +1879,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Vnesite Shard naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Vnesite MyCoin naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1940,8 +1940,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Shard address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Shard naslova</translation>
+        <source>Sign the message to prove you own this MyCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva MyCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1972,8 +1972,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Shard address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim Shard naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified MyCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim MyCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1983,8 +1983,8 @@ Naslov: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Vnesite Shard naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Vnesite MyCoin naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1993,8 +1993,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Shard signature</source>
-        <translation>Vnesite Shard podpis</translation>
+        <source>Enter MyCoin signature</source>
+        <translation>Vnesite MyCoin podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2572,8 +2572,8 @@ Naslov: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>Shard version</source>
-        <translation>Shard različica</translation>
+        <source>MyCoin version</source>
+        <translation>MyCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2582,7 +2582,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or shardd</source>
+        <source>Send command to -server or MyCoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2602,13 +2602,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: shard.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: shard.conf)</translation>
+        <source>Specify configuration file (default: MyCoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: MyCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: shardd.pid)</source>
-        <translation>Določi pid datoteko (privzeto: shard.pid)</translation>
+        <source>Specify pid file (default: MyCoind.pid)</source>
+        <translation>Določi pid datoteko (privzeto: MyCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2625,13 +2625,13 @@ Naslov: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=shardrpc
+rpcuser=MyCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MyCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2732,8 +2732,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shard will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno Shard ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MyCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno MyCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3027,7 +3027,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Shard is shutting down.</source>
+        <source>Initialization sanity check failed. MyCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3082,13 +3082,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Shard</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo Shard</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MyCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo MyCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Shard to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite Shard za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart MyCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite MyCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3147,8 +3147,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. Shard is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča Shard aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. MyCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča MyCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3177,7 +3177,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Shard is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. MyCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

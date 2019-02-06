@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
 	if (self == [NSBundle mainBundle]) {
-		return @"com.shard.Shard-qt";
+		return @"com.MyCoin.MyCoin-qt";
 	} else {
 		return [self __bundleIdentifier];
 	}

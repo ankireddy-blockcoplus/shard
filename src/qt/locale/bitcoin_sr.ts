@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Shard</source>
-        <translation>О Shard-u</translation>
+        <source>About MyCoin</source>
+        <translation>О MyCoin-u</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Shard&lt;/b&gt; version</source>
+        <source>&lt;b&gt;MyCoin&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The Shard developers</source>
+Copyright © 2018 The MyCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,7 +58,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Shard addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your MyCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -73,7 +73,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Shard address</source>
+        <source>Sign a message to prove you own a MyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -88,7 +88,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Shard address</source>
+        <source>Verify a message to ensure it was signed with a specified MyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -256,7 +256,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Shard will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>MyCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -350,7 +350,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Shard</source>
+        <source>Show information about MyCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -390,12 +390,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Shard address</source>
+        <source>Send coins to a MyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Shard</source>
+        <source>Modify configuration options for MyCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -436,7 +436,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Shard</source>
+        <source>MyCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -446,7 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Shard</source>
+        <source>&amp;About MyCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -498,12 +498,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Shard client</source>
+        <source>MyCoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Shard network</source>
+        <source>%n active connection(s) to MyCoin network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -589,7 +589,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Shard address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid MyCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -712,7 +712,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Shard can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. MyCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -978,7 +978,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Shard address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid MyCoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -997,7 +997,7 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Shard-Qt</source>
+        <source>MyCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1070,12 +1070,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Shard after logging in to the system.</source>
+        <source>Automatically start MyCoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Shard on system login</source>
+        <source>&amp;Start MyCoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1085,7 +1085,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Shard client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MyCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1115,7 +1115,7 @@ Address: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Shard network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the MyCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1160,7 +1160,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Shard.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting MyCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1217,7 +1217,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Shard.</source>
+        <source>This setting will take effect after restarting MyCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1236,7 +1236,7 @@ Address: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shard network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MyCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1310,7 +1310,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start shard: click-to-pay handler</source>
+        <source>Cannot start MyCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1480,7 +1480,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Shard-Qt help message to get a list with possible Shard command-line options.</source>
+        <source>Show the MyCoin-Qt help message to get a list with possible MyCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1500,12 +1500,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Shard - Debug window</source>
+        <source>MyCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Shard Core</source>
+        <source>MyCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1515,7 +1515,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Shard debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the MyCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1525,7 +1525,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the Shard RPC console.</source>
+        <source>Welcome to the MyCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1696,7 +1696,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1791,7 +1791,7 @@ Address: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid Shard address</source>
+        <source>WARNING: Invalid MyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1865,7 +1865,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1926,7 +1926,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Shard address</source>
+        <source>Sign the message to prove you own this MyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1958,7 +1958,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Shard address</source>
+        <source>Verify the message to ensure it was signed with the specified MyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1969,7 +1969,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Shard address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a MyCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1979,7 +1979,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Shard signature</source>
+        <source>Enter MyCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2558,7 +2558,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>Shard version</source>
+        <source>MyCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2568,7 +2568,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or shardd</source>
+        <source>Send command to -server or MyCoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2588,12 +2588,12 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: shard.conf)</source>
+        <source>Specify configuration file (default: MyCoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: shardd.pid)</source>
+        <source>Specify pid file (default: MyCoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2611,13 +2611,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=shardrpc
+rpcuser=MyCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MyCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2719,7 +2719,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shard will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MyCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3014,7 +3014,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Shard is shutting down.</source>
+        <source>Initialization sanity check failed. MyCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3069,12 +3069,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Shard</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of MyCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Shard to complete</source>
+        <source>Wallet needed to be rewritten: restart MyCoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3134,7 +3134,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. Shard is probably already running.</source>
+        <source>Unable to bind to %s on this computer. MyCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3164,7 +3164,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Shard Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Shard is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. MyCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -483,7 +483,7 @@ void ThreadStake(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("shard-stake");
+    RenameThread("MyCoin-stake");
 
     CReserveKey reservekey(pwallet);
 

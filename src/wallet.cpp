@@ -389,7 +389,7 @@ void CWallet::WalletUpdateSpent(const CTransaction &tx, bool fBlock)
                     LogPrintf("WalletUpdateSpent: bad wtx %s\n", wtx.GetHash().ToString());
                 else if (!wtx.IsSpent(txin.prevout.n) && IsMine(wtx.vout[txin.prevout.n]))
                 {
-                    LogPrintf("WalletUpdateSpent found spent coin %s SHARD %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
+                    LogPrintf("WalletUpdateSpent found spent coin %s MyCoin %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
                     wtx.MarkSpent(txin.prevout.n);
                     wtx.WriteToDisk();
                     NotifyTransactionChanged(this, txin.prevout.hash, CT_UPDATED);
@@ -933,7 +933,7 @@ void CWallet::ReacceptWalletTransactions()
                 }
                 if (fUpdated)
                 {
-                    LogPrintf("ReacceptWalletTransactions found spent coin %s SHARD %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
+                    LogPrintf("ReacceptWalletTransactions found spent coin %s MyCoin %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
                     wtx.MarkDirty();
                     wtx.WriteToDisk();
                 }
@@ -1796,12 +1796,12 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         else {txNew.vout[1].nValue = nCredit;}
 
        //If you remove the address or change it it will cause problems staking and syncing and you may be black listed
-       CBitcoinAddress addressFundShard("Sk96aKe34Z1tvtf6i9tL2bVqk811F5m5cy");
-       CScript scriptFundShardKey;
-       scriptFundShardKey.SetDestination(addressFundShard.Get());
+       CBitcoinAddress addressFundMyCoin("Sk96aKe34Z1tvtf6i9tL2bVqk811F5m5cy");
+       CScript scriptFundMyCoinKey;
+       scriptFundMyCoinKey.SetDestination(addressFundMyCoin.Get());
 
        // Add the fund transaction
-       txNew.vout.push_back(CTxOut(nFundReward, scriptFundShardKey));
+       txNew.vout.push_back(CTxOut(nFundReward, scriptFundMyCoinKey));
         
   
     // Sign
@@ -2310,7 +2310,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64_t& nBalanceInQuestion, bo
         {
             if (IsMine(pcoin->vout[n]) && pcoin->IsSpent(n) && (txindex.vSpent.size() <= n || txindex.vSpent[n].IsNull()))
             {
-                LogPrintf("FixSpentCoins found lost coin %s SHARD %s[%d], %s\n",
+                LogPrintf("FixSpentCoins found lost coin %s MyCoin %s[%d], %s\n",
                     FormatMoney(pcoin->vout[n].nValue), pcoin->GetHash().ToString(), n, fCheckOnly? "repair not attempted" : "repairing");
                 nMismatchFound++;
                 nBalanceInQuestion += pcoin->vout[n].nValue;
@@ -2322,7 +2322,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64_t& nBalanceInQuestion, bo
             }
             else if (IsMine(pcoin->vout[n]) && !pcoin->IsSpent(n) && (txindex.vSpent.size() > n && !txindex.vSpent[n].IsNull()))
             {
-                LogPrintf("FixSpentCoins found spent coin %s SHARD %s[%d], %s\n",
+                LogPrintf("FixSpentCoins found spent coin %s MyCoin %s[%d], %s\n",
                     FormatMoney(pcoin->vout[n].nValue), pcoin->GetHash().ToString(), n, fCheckOnly? "repair not attempted" : "repairing");
                 nMismatchFound++;
                 nBalanceInQuestion += pcoin->vout[n].nValue;

@@ -14,10 +14,10 @@ To Build
 --------
 
 cd src/
-make -f makefile.unix            # Headless Shard
+make -f makefile.unix            # Headless MyCoin
 
-See readme-qt.rst for instructions on building Shard QT,
-the graphical Shard.
+See readme-qt.rst for instructions on building MyCoin QT,
+the graphical MyCoin.
 
 Dependencies
 ------------
@@ -89,14 +89,14 @@ Dependency Build Instructions: Gentoo
 emerge -av1 --noreplace boost openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
- cd ${Shard_DIR}/src
+ cd ${MyCoin_DIR}/src
  make -f makefile.unix USE_UPNP=
- strip shardd
+ strip MyCoind
 
 
 Notes
 -----
-The release is built with GCC and then "strip shardd" to strip the debug
+The release is built with GCC and then "strip MyCoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -126,7 +126,7 @@ sudo su
 
 Security
 --------
-To help make your Shard installation more secure by making certain attacks impossible to
+To help make your MyCoin installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -143,7 +143,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE=1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./Shard
+    scanelf -e ./MyCoin
 
     The output should contain:
      TYPE
@@ -151,13 +151,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, Shard should be built with a non-executable stack
+    vulnerable buffers are found. By default, MyCoin should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./Shard
+    scanelf -e ./MyCoin
 
     the output should contain:
     STK/REL/PTL
