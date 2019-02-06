@@ -77,7 +77,7 @@ public:
 
 
         hashGenesisBlock = genesis.GetHash();
-        printf("Mainnet block.GetHash = %s\n", hashGenesisBlock.ToString());
+        printf("Mainnet block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         //  if(genesis.GetHash() != uint256("0x"))
         // {
         // printf("MSearching for genesis block...\n");
@@ -179,7 +179,7 @@ public:
         printf("testnet block.hashMerkleRoot: %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("testnet block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         }
-        assert(hashGenesisBlock == uint256("0x0000c13a52f2b21b7559227d797c4d1e21c3f55fbd1b0dc565e30b87fad06f23"));
+        assert(hashGenesisBlock == uint256("b04b468606fbe49d8feabdf1be3fedf1fa22f07af3ba587dfaf7188bda0fc292"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
